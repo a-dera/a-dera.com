@@ -131,7 +131,7 @@ function HeroSection() {
         <h1
           className={clsx("text-4xl font-bold leading-relaxed", "lg:text-5xl")}
         >
-          Hi there, I'm Amédée DERA
+          Hi there, I am Amédée DERA
         </h1>
 
         <p className="md:text-right lg:text-lg">
