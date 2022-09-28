@@ -131,11 +131,11 @@ function HeroSection() {
         <h1
           className={clsx("text-4xl font-bold leading-relaxed", "lg:text-5xl")}
         >
-          Hi there 👋, I'm Amédée DERA 😄
+          Hi there, I'm Amédée DERA
         </h1>
 
         <p className="md:text-right lg:text-lg">
-          I am a typical developer (code is most of my life 😄).
+          I am a typical developer (code is most of my life).
           Really passionate about <strong className="font-bold">PYTHON </strong> programming langage,
           Artificial Intelligence, Data Science, Blockchain,
           and IoT. I am one of those who believe that
