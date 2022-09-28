@@ -123,21 +123,7 @@ export function Header() {
               initial="hide"
               animate="show"
             >
-              <motion.li
-                key={`projects`}
-                variants={itemAnimationOptions}
-                transition={{
-                  duration: 0.1,
-                }}
-              >
-                <Link
-                  onClick={(e) => scrollTo("#projects", e)}
-                  href="#projects"
-                >
-                  Projets
-                </Link>
-              </motion.li>
-
+              
               <motion.li
                 key={`about`}
                 variants={itemAnimationOptions}
@@ -166,6 +152,21 @@ export function Header() {
               </motion.li>
 
               <motion.li
+                key={`projects`}
+                variants={itemAnimationOptions}
+                transition={{
+                  duration: 0.1,
+                }}
+              >
+                <Link
+                  onClick={(e) => scrollTo("#projects", e)}
+                  href="#projects"
+                >
+                  Projets
+                </Link>
+              </motion.li>
+
+              <motion.li
                 key={`resume`}
                 variants={itemAnimationOptions}
                 transition={{
@@ -173,7 +174,7 @@ export function Header() {
                 }}
               >
                 <Link href="/resume.pdf" download>
-                  Télécharger CV
+                  Télécharger mon CV
                 </Link>
               </motion.li>
             </motion.ul>

@@ -56,44 +56,45 @@ const Home: NextPage<HomePageProps> = (props) => {
   return (
     <div>
       <Head>
-        <title>Adrien KISSIE - Portfolio</title>
-        <meta name="title" content="Adrien KISSIE | Développeur FullStack" />
+        <title>Amédée DERA - Portfolio</title>
+        <meta name="title" content="Amédée DERA  | Développeur FullStack Web & Mobile" />
         <meta
           name="description"
-          content={`Adrien KISSIE est un développeur web et streamer sur twitch, spécialiste en frontend et backend.`}
-        />
+          content={`Amédée DERA  est un développeur web et streamer sur twitch, spécialiste en frontend et backend.`}
+        /> 
+        <meta name="charset" content="utf-8"/>
         <link rel="icon" href="/favicon.ico" />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://fredkiss.dev/" />
+        <meta property="og:url" content="https://a-dera.com/" />
         <meta
           property="og:title"
-          content="Adrien KISSIE | Développeur FullStack"
+          content="Amédée DERA  | Développeur FullStack Web & Mobile"
         />
         <meta
           property="og:description"
-          content="Adrien KISSIE est un développeur web et streamer sur twitch, spécialiste en frontend et backend."
+          content="Amédée DERA  est un développeur web et streamer sur twitch, spécialiste en frontend et backend."
         />
         <meta
           property="og:image"
-          content="https://fredkiss.dev/adrien-avatar.png"
+          content="https://a-dera.com/adrien-avatar.png"
         />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://fredkiss.dev/" />
+        <meta property="twitter:url" content="https://a-dera.com/" />
         <meta
           property="twitter:title"
-          content="Adrien KISSIE | Développeur FullStack"
+          content="Amédée DERA  | Développeur FullStack Web & Mobile"
         />
         <meta
           property="twitter:description"
-          content="Adrien KISSIE est un développeur web et streamer sur twitch, spécialiste en frontend et backend."
+          content="Amédée DERA  est un développeur web et streamer sur twitch, spécialiste en frontend et backend."
         />
         <meta
           property="twitter:image"
-          content="https://fredkiss.dev/adrien-avatar.png"
+          content="https://a-dera.com/adrien-avatar.png"
         />
       </Head>
 
@@ -130,22 +131,24 @@ function HeroSection() {
         <h1
           className={clsx("text-4xl font-bold leading-relaxed", "lg:text-5xl")}
         >
-          Hello world, je suis Adrien KISSIE
+          Hi there 👋, I'm Amédée DERA 😄
         </h1>
 
         <p className="md:text-right lg:text-lg">
-          Développeur web et streamer sur&nbsp;
+          I am a typical developer (code is most of my life 😄).
+          Really passionate about <strong className="font-bold">PYTHON </strong> programming langage,
+          Artificial Intelligence, Data Science, Blockchain,
+          and IoT. I am one of those who believe that
+          <strong className="font-bold">code can save us.</strong>  
+          <br /> You can reach me on&nbsp;
           <a
-            href="https://twitch.tv/fredkisss"
+            href="https://twitch.tv/vikmaltiss"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary underline"
           >
-            twitch
+            Discord
           </a>
-          , je crée des applications web orientées performance du&nbsp;
-          <strong className="font-bold">backend</strong> au&nbsp;
-          <strong className="font-bold">frontend</strong>.
         </p>
       </div>
 
@@ -195,7 +198,7 @@ function HeroSection() {
           src={`/adrien.png`}
           objectFit="contain"
           objectPosition="bottom"
-          alt="Photo de Adrien KISSIE"
+          alt="Photo de Amédée DERA "
           className="h-full"
         />
       </div>
