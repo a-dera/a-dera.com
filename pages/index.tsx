@@ -215,10 +215,10 @@ function ProjectSection({ projects }: { projects: MarkdownData<Project>[] }) {
           "md:mb-8 md:text-3xl lg:text-4xl"
         )}
       >
-        Mes projets
+        Projects
       </h2>
       <p className="text-center mb-4">
-        Retrouvez ici les joujous qui font ma fierté.
+        Some of my biggest realisations
       </p>
 
       <ul className="grid gap-10 max-w-[1280px] mx-auto md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -248,7 +248,7 @@ function ExperienceSection({
           "md:mb-8 md:text-3xl lg:text-4xl"
         )}
       >
-        Mon Expérience Professionnelle
+        Professional experience
       </h2>
 
       <ul className="max-w-[1280px] mx-auto">
@@ -282,7 +282,7 @@ function SkillsSection({ skills }: { skills: MarkdownData<Skill>[] }) {
           "md:mb-8 md:text-3xl lg:text-4xl"
         )}
       >
-        En quoi je peux vous aider ?
+        Skills
       </h2>
 
       <div
