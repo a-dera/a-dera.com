@@ -13,11 +13,9 @@ import SupportIcon from './icons/IconSupport.vue'
       <DocumentationIcon />
     </template>
     <template #heading>Who am I?</template>
-    I am a typical developer (code is most of my life) really passionate about Python  programming langage,
+    I am a developer really passionate about Python programming langage,
     Artificial Intelligence, Data Science, Blockchain, and IoT. I am one of those who believe that
-    code can save us.  
-     You can reach me on
-
+    code can save us. 
   </WelcomeItem>
 
 
